@@ -1,0 +1,25 @@
+
+
+
+测试地址
+web：http://srm.shuyupingmin.com:10082
+移动端：http://srm.shuyupingmin.com:10082/mobile，
+
+
+生产地址
+web：http://srm.shuyupingmin.com，
+移动端：http://srm.shuyupingmin.com/mobile
+
+
+测试
+
+前端 192.168.3.107    /opt/nfsshare/srm-v5-web/
+
+后端 192.168.3.107 /data/app/srm/srm_v5。
+
+
+生产
+
+前端 192.168.3.111             /opt/nfsshare/srm-v5-web，
+
+后端192.168.3.110   192.168.3.148     /srm/srm_v5
