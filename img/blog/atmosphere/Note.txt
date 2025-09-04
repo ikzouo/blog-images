@@ -1,0 +1,38 @@
+
+
+
+中药   /recommend/tcm/save
+dr_medication_recom
+	^
+	|
+  recom_id
+	|
+dr_tcm_recom_detail
+
+
+//  =======================>  dr_medication_recom_info
+
+
+西药  /recommend/recom/safe/save
+
+dr_medication_recom
+	^
+	|
+ recommend_id
+	|
+dr_medication_recom_detail
+
+
+
+
+
+
+http://172.19.1.103:1521/els/elsUflo/audit/submit?_t=1726729175
+
+
+{
+    "businessId": "1836661184386031617",
+    "businessType": "supplierPurchaseAccessAudit",
+    "auditSubject": "分公司__8250_SPAN20240926300001",
+    "params": "{\"accessNumber\":\"SPAN20240926300001\",\"toElsAccount\":\"\",\"supplierName\":\"\",\"supplierClassify\":\"Z100\",\"companyCode\":\"8250\",\"purchaseOrg\":\"9000\",\"fbk1\":\"DX00\",\"cateCode\":\"\",\"cateName\":\"\",\"qualificationAccess\":\"APAT2023030200044\",\"remark\":\"\",\"auditStatus\":\"\",\"createTime\":\"2024-09-19 14:58:45\",\"createBy\":\"1001\",\"updateTime\":\"2024-09-19 14:58:49\",\"updateBy\":\"1001\",\"fbk2\":\"1\",\"shortProcess\":\"0\",\"categoryManager\":\"122119_王东\",\"supplierCode\":\"2131231\",\"shorthandCode\":\"\",\"modeOperation\":\"11\",\"postalCode\":\"\",\"currency\":\"CNY\",\"phoneNumber\":\"\",\"GSPCategory\":\"69\",\"templateNumber\":\"TC2022052602\",\"templateName\":\"供应商首营\",\"templateVersion\":1,\"templateAccount\":\"1453123\",\"elsAccount\":\"1453123\",\"factoryCode\":null,\"fbk10_dictText\":null,\"companyName\":null,\"deleted_dictText\":\"正常\",\"shortProcess_dictText\":\"否\",\"busAccount\":\"1453123\",\"purchaseOrg_dictText\":\"9000_山东飞跃达采购组织\",\"id\":\"1836661184386031617\",\"paymentClause_dictText\":null,\"paymentClause\":null,\"sampleAccess\":null,\"factoryName\":null,\"auditStatus_dictText\":null,\"companyCode_dictText\":\"8250_安丘漱玉平民大药房连锁有限公司\",\"factoryCode_dictText\":null,\"supplierPurchaseAccessItemVOList\":[{\"templateNumber\":\"TC2022042601\",\"elsAccount\":null,\"updateTime\":null,\"elsStatusLogList\":null,\"keyWord\":null,\"templateAccount\":\"1453123\",\"accessType\":\"qualificationAccess\",\"number\":\"APAT2023030200044\",\"createBy\":null,\"deleted_dictText\":null,\"deleted\":null,\"createTime\":null,\"updateBy\":null,\"injectionEls\":true,\"templeName\":\"资质审查（资质准入）\",\"templateVersion\":1,\"toElsAccount\":\"1313695\",\"id\":\"1631207328959324161\",\"status\":\"审核通过\"}],\"currency_dictText\":\"人民币\",\"injectionEls\":true,\"supplierClassify_dictText\":\"工业\",\"fbk2_dictText\":\"分公司\",\"supplierType\":null,\"sapCreateTime\":null,\"fbk11\":null,\"attachmentType\":null,\"fbk9\":null,\"fbk10\":null,\"fbk8\":null,\"fbk7\":null,\"fbk6\":null,\"fbk5\":null,\"fbk4\":null,\"fbk3\":null,\"elsStatusLogList\":null,\"categoryName\":null,\"ufloTask\":null,\"GSPCategory_dictText\":\"69_三类器械（6864医用卫生材料及敷料）\",\"purchaseOrgName\":null,\"modeOperation_dictText\":\"自产自销\",\"fbk15\":null,\"fbk14\":null,\"fbk13\":null,\"fbk12\":null,\"flowId\":null,\"fbk1_dictText\":\"实销月结\",\"supplierType_dictText\":null,\"categoryCode\":null,\"keyWord\":null,\"deleted\":0,\"inspectionAccess\":null,\"sapOptUser\":null,\"auditName\":null}"
+}
